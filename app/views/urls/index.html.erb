@@ -1,9 +1,10 @@
-<ul>
-	<% @urls.each do |url| %>
-		<li><%= url.id %></li>
-		<li><%= url.long_url %></li>
-		<li><%= link_to "#{root_url}#{url.short_url}", fo_sho_path(url) %></li>
-	<% end -%>
-</ul>
+<div class="ten columns centered">
 
-<%= link_to "Create a new short URL", new_url_path %>
+	<%= render 'shared/url_form' %>
+
+	<div id="short_url_output">
+		<ul id="short_url_list">
+			
+		</ul>
+	</div>
+</div>

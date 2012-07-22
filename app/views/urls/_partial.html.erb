@@ -1,0 +1,4 @@
+<li id="new_url-<%= url.id %>">
+	<%= link_to "#{root_url}#{url.short_url}", fo_sho_path(url) %>
+	<span id="long_url">- <%= summarize url.long_url %></span>
+</li>

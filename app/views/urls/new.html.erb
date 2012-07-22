@@ -1,6 +1,1 @@
-<%= form_for @url do |f| %>
-	<%= f.label "What do you want to shorten?" %>
-	<%= f.text_field :long_url %>
-
-	<%= f.submit "Shorten!" %>
-<% end -%>
+<%= render 'shared/url_form' %>

@@ -1,0 +1,9 @@
+<section class="url_form center">
+	<h1>What do you want to shorten?</h1>
+
+	<%= form_for(@url, :remote => true) do |f| %>
+		<%= f.text_field :long_url, :class => "url_textfield", :placeholder => "URL" %>
+
+		<%= f.submit "Shorten!", :id => "create_short_url" %>
+	<% end -%>
+</section>

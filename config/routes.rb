@@ -1,8 +1,8 @@
 UrlShortener::Application.routes.draw do
   root :to => 'urls#index'
 
-
   resources :urls
+  
   match '/:short_url' => redirect("/urls/%{short_url}"), :as => 'fo_sho'
 
   # The priority is based upon order of creation:
