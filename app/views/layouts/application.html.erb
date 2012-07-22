@@ -9,14 +9,8 @@
 </head>
 <body>
 
-<head>
-	<div class="row">
-		<div class="twelve columns">
-			<h1><%= link_to "Fo.Sho", root_path, :class => "title" %></h1>
-			<p>The best URL shortener. Fo' sho.</p>
-		</div>
-	</div>
-</head>
+<%= render 'layouts/header'%>
+
 <div class="row">
 	<div class="twelve columns">
 		<%= yield %>	

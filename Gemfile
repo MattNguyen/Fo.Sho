@@ -6,7 +6,7 @@ gem 'jquery-rails'
 gem 'zurb-foundation'
 
 group :development do
-	gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 group :assets do
@@ -17,7 +17,7 @@ group :assets do
 end
 
 group :production do
-	gem 'pg'
+  gem 'pg'
 end
 
 # To use ActiveModel has_secure_password
