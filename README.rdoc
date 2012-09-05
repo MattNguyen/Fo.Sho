@@ -1,6 +1,9 @@
 ==Fo.Sho
 A URL shortener
 
+fosho.herokuapp.com
+
 ==Getting started
-'1. bundle install'
+1. bundle install
+2. bundle exec rake db:migrate
 2. Start 'rails server' and go to 'localhost:3000'

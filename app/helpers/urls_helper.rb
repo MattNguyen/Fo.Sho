@@ -1,5 +1,5 @@
 module UrlsHelper
-	require 'URI'
+	require 'uri'
 	def summarize(url)
 		summ = URI(url).host
 		"#{summ}/..."
