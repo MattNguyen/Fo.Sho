@@ -4,6 +4,7 @@ gem 'rails', '3.2.2'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'zurb-foundation'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'sqlite3'
